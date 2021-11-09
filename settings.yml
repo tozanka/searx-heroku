@@ -16,7 +16,7 @@ brand:
 search:
     safe_search: 0 # Filter results. 0: None, 1: Moderate, 2: Strict
     autocomplete: "google" # Existing autocomplete backends: "dbpedia", "duckduckgo", "google", "startpage", "swisscows", "qwant", "wikipedia" - leave blank to turn it off by default
-    default_lang: "" # Default search language - leave blank to detect from browser information or use codes from 'languages.py'
+    default_lang: "en-SG" # Default search language - leave blank to detect from browser information or use codes from 'languages.py'
     ban_time_on_fail: 5 # ban time in seconds after engine errors
     max_ban_time_on_fail: 120 # max ban time in seconds after engine errors
 
@@ -61,8 +61,8 @@ enabled_plugins:
 hostname_replace:
   '(.*\.)?youtube\.com$': "piped.kavin.rocks"
   '(.*\.)?youtu\.be$': "piped.kavin.rocks"
-  '(.*\.)?reddit\.com$': "teddit.net"
-  '(.*\.)?redd\.it$': "teddit.net"
+  '(.*\.)?reddit\.com$': "tedsg.xyz"
+  '(.*\.)?redd\.it$': "tedsg.xyz"
   '(www\.)?twitter\.com$': "nitter.net"
 
 checker:
